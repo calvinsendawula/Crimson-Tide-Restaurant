@@ -1,0 +1,102 @@
+.container {
+  border-radius: 30px;
+  background-color: #ffcc5c;
+  border: 3px solid #ffcc5c;
+  display: flex;
+  height: 100%;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerpiece {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-family: sans-serif;
+}
+
+form {
+  padding: 30px 0;
+}
+
+#btnExit {
+  float: right;
+  border-radius: 9px;
+}
+
+#btnExit:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+#btnExit>a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#btnExit>a:hover {
+  color: white;
+}
+
+#btnClearFields{
+  border-radius: 10px;
+  height: 25px;
+  font-size: 15px;
+}
+#btnClearFields:hover {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+
+label{
+  font-family: sans-serif;
+}
+
+input{
+  border-radius: 9px;
+  height: 20px;
+  width: 200px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btnContinue{
+  font-size: 20px;
+  border-radius: 16px;
+  display: flex;
+  width: 300px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff3800;
+  color: white;
+  border-color: #ff3800;
+}
+#btnContinue:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.login{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login>a{
+  text-decoration: none;
+}
